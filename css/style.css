@@ -21,18 +21,16 @@ a{
 }
 
 .section-main {
-    width: 95%; 
+    width: 1200px; 
     margin: 0 auto;
 }
 
 
 .card {
-    /* margin-top: 50px;
-    margin-bottom: 50px; */
-    margin: 50px 15px;   
+    margin: 50px 10px;   
     float: left;
-    /* width: calc(100% / 3 - 3rem);  */
-    width: 396px;
+    width: calc(100% / 3 - 3rem);
+    
     
 
 
@@ -61,7 +59,7 @@ img {
     height: 50px;
     background-color: white;
     position: absolute;
-    left: 346px;
+    left: 303px;
     top: 20px;
     text-align: center;
     padding-top: .3em;
