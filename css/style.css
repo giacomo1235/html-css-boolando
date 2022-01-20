@@ -9,13 +9,40 @@ html {
     font-size: 16px;
 }
 
+.clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
 a{
     text-decoration: none;
     color: black;
 }
 
+.section-main {
+   
+    margin: 0 auto;
+}
+
+
+.card {
+    margin-top: 50px;
+    margin-bottom: 50px;
+   margin-left: 55px;
+    float: left;
+    /* width: calc(100% / 3 - 3rem);  */
+    width: 30%;
+    
+
+
+}
+img {
+    width: 640px;
+    height: 924px;
+}
+
 .photo{
-    width: 600px;
    position: relative;
    display: inline-block;
 }
@@ -25,7 +52,6 @@ a{
     position: absolute;
     top: 0;
     left: 0;
-    /* z-index: 99; */
 }
 .photo:hover .img_a {
     display: inline;
@@ -64,6 +90,19 @@ a{
     bottom: 3em;
     left: 50px;
 }
+.sostenibilita_0 {
+
+    background-color: green;
+    display: inline-block;
+    color: white;
+    padding: .2em .3em;
+    font-size: .9em;
+    font-weight: 700;
+    position: absolute;
+    bottom: 3em;
+    left: 0px;
+
+}
 
 .model {
     font-weight: 600 ;
@@ -73,6 +112,7 @@ a{
 p.price {
     color: red;
     display: inline;
+    font-weight: 500;
 }
 
 .striked_price {
